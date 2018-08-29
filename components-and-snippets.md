@@ -12,6 +12,14 @@ description: >-
 
 ## Client Side \(`/static/...`\)
 
+### Pin Input
+
+```markup
+{{#embed "registration/pin" digits=4 pattern="[0-9]" required="true" name="email-pin" class="mail-validation my-1"}}{{/embed}}
+```
+
+![](.gitbook/assets/pin-input.gif)
+
 ### Linking Inputs
 
 Du kannst Textfelder automatisch mit Texten aus Inputfeldern füllen lassen. Füge dazu einfach die `class="linked"` zu der Quelle hinzu und bei den jeweiligen Zielobjekten \(beliebig viele\) den entsprechenden Namen \(`data-from="[name]"`\) des input-Felds.
