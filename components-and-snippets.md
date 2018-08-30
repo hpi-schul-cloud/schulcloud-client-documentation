@@ -10,8 +10,6 @@ description: >-
 
 ### Tabellen
 
-## Client Side \(`/static/...`\)
-
 ### Pin Input
 
 ```markup
@@ -19,6 +17,8 @@ description: >-
 ```
 
 ![](.gitbook/assets/pin-input.gif)
+
+## Client Side \(`/static/...`\)
 
 ### Linking Inputs
 
