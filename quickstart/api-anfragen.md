@@ -143,6 +143,10 @@ Die Antwort des Servers enthält neben den Datensätzen noch weitere Metadaten.
 | limit | Anzahl an ausgegebenen Einträgen \(wie SQL\) |
 | skip | Wie viele Einträge wurden übersprungen \([SQL `offset`](https://www.petefreitag.com/item/451.cfm)\) |
 
+{% hint style="info" %}
+Wenn die Oberfläche das Einstellen von "Einträgen pro Seite" ermöglicht, solltest du diese Anzahl an Einträgen pro Seite als $limit bei allen zugehörigen Anfragen festlegen, damit der default-Wert überschrieben wird und dir nicht weniger Daten als erwartet zurückgegeben werden. 
+{% endhint %}
+
 ## CREATE
 
 ```javascript
