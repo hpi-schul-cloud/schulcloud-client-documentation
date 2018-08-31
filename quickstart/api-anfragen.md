@@ -193,6 +193,42 @@ const newData = {
 patchSomething('link', 'abc', newData);
 ```
 
+### Arrays manipulieren
+
+Patch ersetzt normalerweise den gesamten, spezifizierten Eintrag. Wenn nun allerdings in der Datenbank ein Array gespeichert ist und man zu diesem nur einen Wert hinzufügen/entfernen möchte gibt es einige besondere Methoden
+
+Eine ausführliche Dokumentation über alle Array Update Operatoren ist hier zu finden: [https://docs.mongodb.com/manual/reference/operator/update-array/](https://docs.mongodb.com/manual/reference/operator/update-array/)
+
+
+
+#### Wert hinzufügen
+
+Die Folgende Anfrage fügt den Wert `newId` zu dem Array `teacherIds` in der Datenbank hinzu.
+
+```javascript
+api(req).patch('/classes/[id]', { 
+    json: { 
+        $push: { 
+            teacherIds: 'newId' 
+        }
+    }
+});
+```
+
+#### Wert entfernen
+
+Die Folgende Anfrage entfernt den Wert `newId` aus dem Array `teacherIds` in der Datenbank.
+
+```javascript
+api(req).patch('/classes/[id]', { 
+    json: { 
+        $pull: { 
+            teacherIds: 'newId' 
+        }
+    }
+});
+```
+
 ## REMOVE
 
 ```javascript
