@@ -175,7 +175,7 @@ Update ersetzt den gesamten Datensatz! Wenn du nur einzelne Attribute verändern
 ## PATCH
 
 {% hint style="warning" %}
-Patch verändert nur die Attribute, welche gesendet werden. Alle anderen bleiben unverändert! Das löschen von einzelnen Attributen ist mit PATCH daher nicht möglich.
+Patch verändert nur die Attribute, welche gesendet werden. Alle anderen bleiben unverändert! Das löschen von Attributen muss daher explizit spezifiziert werden. [Read more](https://docs.mongodb.com/manual/reference/operator/update/unset/)
 {% endhint %}
 
 ```javascript
