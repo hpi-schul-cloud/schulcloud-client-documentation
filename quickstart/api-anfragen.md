@@ -62,11 +62,40 @@ Als Referenzierte Daten werden Daten bezeichnet, für die nur eine id eines ande
 
 #### Beispiel
 
-| document service | user service |
-| :--- | :--- |
-| `{_id: 'def'creator: 'abc'title: }` | `{  _id: 'abc'  name: 'firstName'}` |
-
-Beim Laden eines Dokumentes vom document Service wird als ersteller nur die ID eines Nutzers angegeben, nicht die Nutzerdaten selbst. Diese Daten sind somit nur im Dokument _referenziert_.
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">document service</th>
+      <th style="text-align:left">user service</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p><code>{</code>
+        </p>
+        <p><code>  _id: &apos;def&apos;</code>
+        </p>
+        <p><b><code>  creator: &apos;abc&apos;</code></b>
+        </p>
+        <p><code>  title: &apos;...&apos;</code>
+        </p>
+        <p><code>}</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p><code>{</code>
+        </p>
+        <p><code>  </code><b><code>_id: &apos;abc&apos;</code></b>
+        </p>
+        <p><code>  name: &apos;firstName&apos;</code>
+        </p>
+        <p><code>}</code>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>Beim Laden eines Dokumentes vom document Service wird als ersteller nur die ID eines Nutzers angegeben, nicht die Nutzerdaten selbst. Diese Daten sind somit nur im Dokument _referenziert_.
 
 #### Zugriff
 
@@ -76,7 +105,7 @@ Für den Zugriff auf referenzierte Daten kann das Attribut `$populate: ['attribu
 Daten welche mit `$populate` aufgelöst wurden können nicht gefiltert werden.
 {% endhint %}
 
-```text
+```javascript
 api(req).get('/courses/' + req.params.courseId, {
     qs: {
         $populate: ['userIds']

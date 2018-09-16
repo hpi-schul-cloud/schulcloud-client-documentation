@@ -13,7 +13,7 @@ Unser Logo setzt sich aus 3 Bereichen zusammen.
 Es existieren verschiedene Versionen des Schul-Cloud Logos. Generell gelten die folgenden Richtlinien:
 
 {% hint style="info" %}
-Verwende die _normale_-Version auf hellen \(weißen\) Hintergründen und die _mono_-Version auf dunklen Hintergründen.
+Verwende die _normale_-Version auf hellen \(weißen\), einfachen Hintergründen \(einfarbig\) und die _mono_-Version auf dunklen oder mehrfarbigen Hintergründen.
 {% endhint %}
 
 ![normal \(left\) vs. mono \(right\)](../.gitbook/assets/normal-vs-mono.png)
@@ -23,4 +23,6 @@ Verwende die Version mit Text nur, wenn ausreichend Platz vorhanden ist und das 
 {% endhint %}
 
 ![](../.gitbook/assets/logo-responsive.png)
+
+![](../.gitbook/assets/logo_to_small.PNG)
 

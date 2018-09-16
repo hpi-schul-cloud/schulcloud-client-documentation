@@ -1,6 +1,6 @@
 # Naming
 
-Die `HPI Schul-Cloud` wird auch unter dem Namen `Niedersächsische Bildungscloud` gehosted. Damit in dieser nicht überall Schul-Cloud steht gibt es ein paar Umgebungsvariablen, in welcher jeweilige Einstellungen gesetzt werden
+Die `HPI Schul-Cloud` wird auch unter dem Namen `Niedersächsische Bildungscloud` gehosted. Damit in dieser nicht überall Schul-Cloud steht gibt es ein paar Umgebungsvariablen, in welcher jeweilige Einstellungen gesetzt werden.
 
 | ENV-Variable | Default | Handlebars | Controller |
 | :--- | :--- | :--- | :--- |
