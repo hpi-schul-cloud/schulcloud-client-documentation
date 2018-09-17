@@ -1,24 +1,20 @@
----
-description: >-
-  In diesem Bereich können Snippets, Helper usw. geteilt werden, damit für
-  einmal gelöste Probleme das Rad später nicht neu erfunden werden muss.
----
+# JS Snippets
 
-# Components & Snippets
+## How-To
 
-## Server Side \(Handlebars & Controller\)
+Worauf muss ich achten, wenn ich eigene Snippets erstellen möchte?
 
-### Tabellen
+{% hint style="info" %}
+TODO
+{% endhint %}
 
-### Pin Input
+## Snippets
 
-```markup
-{{#embed "registration/pin" digits=4 pattern="[0-9]" required="true" name="email-pin" class="mail-validation my-1"}}{{/embed}}
-```
+### \(soft\) AJAX-Navigation
 
-![](.gitbook/assets/pin-input.gif)
-
-## Client Side \(`/static/...`\)
+{% hint style="info" %}
+TODO
+{% endhint %}
 
 ### Linking Inputs
 
@@ -41,7 +37,7 @@ import 'static/scripts/helpers/inputLinking';
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-![](.gitbook/assets/giphy-1.gif)
+![](../.gitbook/assets/giphy-1.gif)
 
 ### Konfetti Mode
 
@@ -63,7 +59,5 @@ import 'static/scripts/confetti/confetti.js';
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-![.../firstLogin/existingGeb14](.gitbook/assets/confetti.gif)
-
-
+![.../firstLogin/existingGeb14](../.gitbook/assets/confetti.gif)
 

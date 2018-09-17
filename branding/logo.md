@@ -24,5 +24,7 @@ Verwende die Version mit Text nur, wenn ausreichend Platz vorhanden ist und das 
 
 ![](../.gitbook/assets/logo-responsive.png)
 
-![](../.gitbook/assets/logo_to_small.PNG)
+![Hier wurde offensichtlich die falsche Version gew&#xE4;hlt.](../.gitbook/assets/logo_to_small.PNG)
+
+
 
