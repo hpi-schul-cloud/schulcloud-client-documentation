@@ -13,4 +13,6 @@
   * [Handlebars Components](components-and-snippets/components.md)
   * [JS Snippets](components-and-snippets/js-snippets.md)
 * [Formulare](formulare.md)
+* [Beispiele](beispiele/README.md)
+  * [Daten aus Formular speichern](beispiele/daten-speichern-updaten.md)
 
